@@ -11,7 +11,7 @@ set('strictQuery', true);
 
 export const dbconnect = async () => {
   try {
-    await connect("mongodb://localhost:27017/", {
+    await connect("mongodb://localhost:27017/web-mini-project", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
